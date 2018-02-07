@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#B03030;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  h2{
+    font-family: 'Titillium Web';
+  }
+  
+  .image{
+    position:relative;
+    width: 100%;
+      height: 780px;
+      background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/159368/laptop-iphone-coffee-notebook-159368.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+  
+  .welcome-text{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align:center;
+    color:#fff;
+  }
+  
+  .welcome-text h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:100px;
+    font-weight: bolder;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text span{
+    color:#B03030;
+    }
+  
+  .welcome-text hr{
+    width: 30%; 
+    border-color:#B03030;
+    }
+  
+  .welcome-text p{
+    margin-top: 30px;
+    font-size:30px;
+    letter-spacing:15px;
+    }
+  
+  .arrow-div p{
+    margin: 150px 0 0 0;
+    font-size:15px;
+    font-weight: bold;
+    letter-spacing:0;
+  }
+  
+  .arrow-div a{
+    color: #fff;
+    font-size: 45px;
+  }
+  
+  .arrow-div a:hover{
+    color:#B03030;
+    text-decoration: none;
+    font-size: 45px;
+  }
+  
+  nav{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:bold;
+    text-transform:uppercase;
+    background: linear-gradient(to bottom, rgb(182, 155, 155) 0%,rgba(175,68,68,1) 45%,rgba(176,48,48,1) 100%);
+  }
+  
+  nav a{
+    color:white;
+  }
+  
+  nav a:hover{
+    color:gray;
+  }
+  
+  .navbar-brand{
+    border: 3px solid #fff;
+    padding: 10px;
+    font-family: 'Abril Fatface';
+  }
+    
+  #about h2{
+    margin: 65px 0 75px 0;
+    color: #fff;
+    font-size:50px;
+    font-weight: bolder;
+  }
+  
+  #about .about-me{
+    text-transform:uppercase;
+  }
+  
+  #about .alberto{
+    display: block;
+    width: 200px;
+    margin: 10px auto 50px auto;
+    border-radius: 50%;
+    border: 3px solid #3F3E3E;
+    opacity: 0.6;
+  }
+  
+  #about .alberto:hover{
+    opacity: 1;
+  }
+  
+  #about p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  
+  #about .education{
+    height: 580px;
+    width: 101%;
+    background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/264635/pexels-photo-264635.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+  
+  #about .flatiron, .fcc{
+    margin: 10px 15px 10px 15px;
+    border-radius: 15%;
+  }
+  
+  #about .flatiron{
+    background-color: #00B4E6;
+    opacity:0.60;
+  }
+  
+  #about .fcc{
+    background-color: white;
+    opacity:0.50;
+   
+  }
+  
+  #about .flatiron h2{
+    font-size: 42px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  
+  #about .flatiron span{
+    display:inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:white;
+    opacity: 0.75;
+    color: #00B4E6;
+  }
+  
+  #about .flatiron h3{
+    color: gold;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  
+  #about .fcc h3{
+    color: black;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  
+  #about .education p{
+    margin-bottom: 30px;
+  }
+  
+  #about .fcc p{
+    color: black;
+    margin-top:10px;
+  }
+  
+  
+  #about .fcc h2{
+    font-family: 'Cutive Mono', monospace;
+    color:green;
+    font-size: 44px;
+    font-weight:bold;
+    margin-bottom:0;
+  }
+  
+  #about .education a{
+    margin: 5px auto 0px 170px;
+    border: 3px solid;
+    padding: 20px;
+    width: 10%;
+    text-decoration: none;
+  }
+  
+  #about .flatiron a{
+   color: #fff;
+  }
+  
+  #about .fcc a{
+   color: green; 
+  }
+  
+  #about{
+    margin-bottom: 100px;
+  }
+  
+  #skills{
+    background-color: #F1E0E0;
+    padding-bottom:75px;
+  }
+  
+  #skills h2{
+    padding-top: 75px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  
+  #skills p{
+    margin: 0 20px;
+  }
+  
+  .skills-images{
+    margin: 65px 50px 50px;
+    border: 3px dotted tomato;
+  }
+  
+  .skills-images div{
+    margin: 0 60px 0 60px;
+  }
+  
+  .skills-images img{
+    width: 150px;
+    margin: 10px auto 25px auto;
+  }
+  
+  #portfolio{
+    background: #778899;
+    color: #fff;
+    padding-bottom:75px;
+  }
+  
+  #portfolio h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  
+  #portfolio h3{
+    margin-bottom: 50px;
+  }
+  
+  #portfolio .projects{
+    margin: 0 15px 15px 15px;
+    height: 375px;
+    border-radius: 10%;
+    background-color: #fff;
+    color: #778899;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  #portfolio a{
+    margin: 15px 15px 0 100px;
+    text-transform: none;
+  }
+  
+  #portfolio .candybag a{
+    margin: 15px 5px 0 50px;
+    text-transform: none;
+  }
+  
+  #portfolio .projects:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  #portfolio .projects img{
+    margin: 30px 0;
+    width: 100%;
+  }
+  
+  #contact{
+    background: #464749;
+    color: #fff;
+    padding-bottom:10px;
+  }
+  
+  #contact h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  
+  #contact .social{
+    display:inline;
+     width:100px;
+     height: 100%;
+     margin-left: 630px;
+  }
+  
+  #contact a{
+    margin-right: 20px;
+    font-size:40px;
+    color: #fff;
+  }
+  
+  #contact .contact{
+    margin-bottom: 70px;
+  }
+  
+  #contact .name{
+    margin-top: 70px;
+    color: darkgray;
+  }
+  
+  #contact a:hover{
+    color:gray;
+    text-decoration:none;
+  }
+  
+  
+  
+  
+  
+  @media(max-width: 568px){
+    /* LANDING PAGE */
+    .welcome-text h3{
+      font-size: 50px;
+    }
+    
+    .welcome-text p{
+      font-size: 15px;
+    }
+    
+    /* NAVBAR */    
+    .navbar-brand{
+      font-size: 10px;
+    }
+
+    /* ABOUT */
+
+    #about h2{
+      font-size: 30px;
+    }
+
+    #about .alberto{
+      width: 150px;
+    }
+
+    #about #bio{
+      font-size: 15px;
+    }
+
+    /* EDUCATION */
+
+    #about .education{
+      height: 1200px;
+    }
+
+    #about .flatiron, .fcc{
+      width: 100%;
+    }
+
+    #about .flatiron h2{
+      font-size: 33px;
+    }
+
+    #about .flatiron p{
+      font-size: 15px;
+    }
+
+    #about .flatiron a{
+      font-size: 10px;
+      margin-left: 124px;      
+    }
+
+    #about .flatiron h3{
+      font-size: 20px;     
+    }
+
+    #about .fcc h2{
+      font-size: 38px;
+    }
+
+    #about .fcc p{
+      font-size: 15px;
+    }
+
+    #about .fcc a{
+      font-size: 10px;
+      margin-left: 124px;
+    }
+
+    #about .fcc h3{
+      font-size: 20px;     
+    }
+
+    /* SKILLS */
+    
+    #skills h2{
+      font-size: 33px;      
+    }
+
+    #skills p{
+      font-size: 15px;      
+    }
+
+    .skills-images div{
+      margin: 0;
+    }
+
+    .skills-images img{
+      width: 80px;
+    }
+
+    /* PORTFOLIO */
+
+    #portfolio h2{
+      font-size: 33px;      
+    }
+
+    #portfolio h3{
+      font-size: 20px;      
+    }
+
+    #portfolio .projects{
+      margin: 0 50px 15px 50px;
+    }
+
+    #portfolio .projects p{
+      font-size: 10px;
+    }
+
+    #portfolio .projects a{
+      font-size: 12px;
+    }
+
+    #portfolio .candybag a{
+      margin: 15px 0 0 40px;
+      text-transform: none;
+    }
+
+    /* CONTACT */
+
+    #contact h2{
+      font-size: 33px;            
+    }
+
+    #contact p{
+      font-size: 15px;            
+    }
+
+    #contact .social{
+      margin-left: 145px;            
+    }
+  }
+  
+  
