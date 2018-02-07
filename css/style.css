@@ -1,8 +1,12 @@
+html{
+  overflow-x: hidden;       
+}
 body{
     margin: 0;
     padding: 0;
     background-color:#B03030;
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden;     
   }
   
   h2{
@@ -12,10 +16,10 @@ body{
   .image{
     position:relative;
     width: 100%;
-      height: 780px;
-      background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/159368/laptop-iphone-coffee-notebook-159368.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
+    height: 780px;
+    background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/159368/laptop-iphone-coffee-notebook-159368.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   
   .welcome-text{
@@ -120,7 +124,7 @@ body{
   
   #about .education{
     height: 580px;
-    width: 108%;
+    width: 104%;
     background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/264635/pexels-photo-264635.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -323,11 +327,9 @@ body{
   }
   
   
-  
-  
-  
-  @media(max-width: 750px){
-    /* LANDING PAGE */
+  @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait)  {
+
+      /* LANDING PAGE */
     .welcome-text h3{
       font-size: 50px;
     }
@@ -460,4 +462,140 @@ body{
     }
   }
   
+  @media screen and (max-width: 812px) and (orientation: landscape)  {
+      /* LANDING PAGE */
+      .welcome-text h3{
+        font-size: 60px;
+      }
+
+      .welcome-text p{
+        font-size: 12px;
+      }
+      
+      /* NAVBAR */    
+      .navbar-brand{
+        font-size: 10px;
+      }
+  
+      /* ABOUT */
+  
+      #about h2{
+        font-size: 30px;
+      }
+  
+      #about .alberto{
+        width: 150px;
+      }
+  
+      #about #bio{
+        font-size: 15px;
+      }
+  
+      /* EDUCATION */
+  
+      #about .education{
+        height: 500px;
+      }
+  
+      #about .flatiron, .fcc{
+        width: 200%;
+        height: 85%;
+      }
+  
+      #about .flatiron h2{
+        font-size: 18px;
+      }
+  
+      #about .flatiron p{
+        font-size: 10px;
+      }
+  
+      #about .flatiron a{
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 75px;      
+      }
+  
+      #about .flatiron h3{
+        font-size: 20px;     
+      }
+  
+      #about .fcc h2{
+        font-size: 20px;
+      }
+  
+      #about .fcc p{
+        font-size: 10px;
+      }
+  
+      #about .fcc a{
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 75px;
+      }
+  
+      #about .fcc h3{
+        font-size: 20px;     
+      }
+  
+      /* SKILLS */
+      
+      #skills h2{
+        font-size: 33px;      
+      }
+  
+      #skills p{
+        font-size: 15px;      
+      }
+  
+      .skills-images div{
+        margin: 0;
+      }
+  
+      .skills-images img{
+        width: 68px;
+      }
+  
+      /* PORTFOLIO */
+  
+      #portfolio h2{
+        font-size: 33px;      
+      }
+  
+      #portfolio h3{
+        font-size: 20px;      
+      }
+  
+      #portfolio .projects{
+        margin: 0 auto 15px 1px;
+      }
+  
+      #portfolio .projects p{
+        font-size: 10px;
+      }
+  
+      #portfolio .projects a{
+        font-size: 12px;
+        margin-left: 20px;
+      }
+  
+      #portfolio .candybag a{
+        margin: 15px 0 0 15px;
+        text-transform: none;
+      }
+  
+      /* CONTACT */
+  
+      #contact h2{
+        font-size: 33px;            
+      }
+  
+      #contact p{
+        font-size: 15px;            
+      }
+  
+      #contact .social{
+        margin-left: 260px;            
+      }
+  }  
   
