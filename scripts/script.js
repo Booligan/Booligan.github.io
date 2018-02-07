@@ -44,12 +44,6 @@ $(document).ready(function() {
     distance:'300px'
   });
 
-  sr.reveal('.projects-div', {
-    duration: 2000,
-    origin: 'bottom',
-    distance:'300px'
-  });
-
  });
 
  $(".navbar-brand").mouseenter(function(){
