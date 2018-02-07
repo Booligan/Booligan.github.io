@@ -120,10 +120,10 @@ body{
   
   #about .education{
     height: 580px;
-    width: 101%;
+    width: 108%;
     background-image:linear-gradient(0deg,rgba(45,0,0,0.5),rgba(0,0,20,0.5)),url('https://images.pexels.com/photos/264635/pexels-photo-264635.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   
   #about .flatiron, .fcc{
@@ -326,7 +326,7 @@ body{
   
   
   
-  @media(max-width: 568px){
+  @media(max-width: 750px){
     /* LANDING PAGE */
     .welcome-text h3{
       font-size: 50px;
@@ -437,6 +437,7 @@ body{
 
     #portfolio .projects a{
       font-size: 12px;
+      margin-left: 85px;
     }
 
     #portfolio .candybag a{
